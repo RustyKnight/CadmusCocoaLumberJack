@@ -19,7 +19,7 @@ public enum LogLevel {
 	
 	- returns: Returns the current LogLevel
 	*/
-	case error, warning, info, verbose
+	case none, error, warning, info, verbose, debug, all
 	
 	/**
 	Get the current LogLevel
@@ -28,14 +28,13 @@ public enum LogLevel {
 	*/
 	func getDDLogLevel() -> DDLogLevel {
 		switch self {
-		case .error:
-			return DDLogLevel.error
-		case .warning:
-			return DDLogLevel.warning
-		case .info:
-			return DDLogLevel.info
-		case .verbose:
-			return DDLogLevel.verbose
+    case .none: return DDLogLevel.off
+		case .error: return DDLogLevel.error
+		case .warning: return DDLogLevel.warning
+		case .info: return DDLogLevel.info
+		case .verbose: return DDLogLevel.verbose
+    case .debug: return DDLogLevel.debug
+    case .all: return DDLogLevel.all
 		}
 	}
 }
