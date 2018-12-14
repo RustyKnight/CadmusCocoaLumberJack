@@ -44,7 +44,7 @@ public struct LogTargetConfig {
   public let isEnabled: Bool
   public let level: LogLevel
   
-  public init(isEnabled: Bool = true, level: LogLevel = .info) {
+  public init(isEnabled: Bool = true, level: LogLevel = .verbose) {
     self.isEnabled = isEnabled
     self.level = level
   }
