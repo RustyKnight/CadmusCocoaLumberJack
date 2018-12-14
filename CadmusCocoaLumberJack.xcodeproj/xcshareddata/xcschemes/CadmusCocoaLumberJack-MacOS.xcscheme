@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "707F336321C3879500AB83C0"
-               BuildableName = "CadmusCocoaLumberJack_MacOS.framework"
+               BuildableName = "CadmusCocoaLumberjack.framework"
                BlueprintName = "CadmusCocoaLumberJack-MacOS"
                ReferencedContainer = "container:CadmusCocoaLumberJack.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "707F336321C3879500AB83C0"
-            BuildableName = "CadmusCocoaLumberJack_MacOS.framework"
+            BuildableName = "CadmusCocoaLumberjack.framework"
             BlueprintName = "CadmusCocoaLumberJack-MacOS"
             ReferencedContainer = "container:CadmusCocoaLumberJack.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "707F336321C3879500AB83C0"
-            BuildableName = "CadmusCocoaLumberJack_MacOS.framework"
+            BuildableName = "CadmusCocoaLumberjack.framework"
             BlueprintName = "CadmusCocoaLumberJack-MacOS"
             ReferencedContainer = "container:CadmusCocoaLumberJack.xcodeproj">
          </BuildableReference>

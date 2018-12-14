@@ -6,7 +6,7 @@
 //  Copyright © 2018 Kaizen Enteripises. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for CadmusCocoaLumberJack.
 FOUNDATION_EXPORT double CadmusCocoaLumberJackVersionNumber;
