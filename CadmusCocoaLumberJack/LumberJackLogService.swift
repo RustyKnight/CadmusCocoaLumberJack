@@ -51,7 +51,7 @@ Initialzes CocoaLumberjack
 	- config: Log Config
 	*/
 	func configureFileLogging(config: LogTargetConfig) {
-    guard config.isEnabled else {
+    guard !config.isEnabled else {
       return
     }
 		// File Logger
@@ -76,7 +76,7 @@ Initialzes CocoaLumberjack
 	- config: Log Config
 	*/
 	func configureConsoleLogging(config: LogTargetConfig) {
-    guard config.isEnabled else {
+    guard !config.isEnabled else {
       return
     }
 		DDTTYLogger.sharedInstance.logFormatter = LogFormatter()
