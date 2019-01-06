@@ -1,2 +1,5 @@
-binary "https://kaizen.api.net:8443/json/10.1b10B61/Cadmus" ~> 1.0.0
-binary "https://kaizen.api.net:8443/json/10.1b10B61/CocoaLumberjack" == 3.4.2
+#binary "https://kaizen.api.net:8443/json/10.1b10B61/Cadmus" ~> 1.0.0
+#binary "https://kaizen.api.net:8443/json/10.1b10B61/CocoaLumberjack" == 3.4.2
+
+github "https://github.com/RustyKnight/Cadmus" ~> 1.0.0
+github "https://github.com/CocoaLumberjack/CocoaLumberjack" ~> 3.4.2
