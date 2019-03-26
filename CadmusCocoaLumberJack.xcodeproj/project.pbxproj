@@ -182,12 +182,12 @@
 		707F333F21C3846A00AB83C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Kaizen Enteripises";
 				TargetAttributes = {
 					707F334721C3846A00AB83C0 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 					707F336321C3879500AB83C0 = {
 						CreatedOnToolsVersion = 10.1;
@@ -200,6 +200,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 707F333E21C3846A00AB83C0;
 			productRefGroup = 707F334921C3846A00AB83C0 /* Products */;
@@ -399,7 +400,7 @@
 				PRODUCT_NAME = CadmusCocoaLumberjack;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -429,7 +430,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.kaizen.CadmusCocoaLumberJack-iOS";
 				PRODUCT_NAME = CadmusCocoaLumberjack;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -437,7 +438,7 @@
 		707F336A21C3879500AB83C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -469,7 +470,7 @@
 		707F336B21C3879500AB83C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
