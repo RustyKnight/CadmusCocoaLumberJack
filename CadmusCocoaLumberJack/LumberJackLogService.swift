@@ -79,11 +79,12 @@ Initialzes CocoaLumberjack
     guard config.isEnabled else {
       return
     }
-		DDTTYLogger.sharedInstance.logFormatter = LogFormatter()
-		DDTTYLogger.sharedInstance.colorsEnabled = false
+    guard let instance = DDTTYLogger.sharedInstance else { return }
+    instance.logFormatter = LogFormatter()
+    instance.colorsEnabled = false
 
 		// Log to Xcode console
-		DDLog.add(DDTTYLogger.sharedInstance, with: config.level.getDDLogLevel())
+    DDLog.add(instance, with: config.level.getDDLogLevel())
 		Cadmus.log(debug: "Configured Console Logging")
 	}
 
